@@ -1,0 +1,66 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: black;
+    margin-right: 10px;
+    width: 70%;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2196F3;
+    color: green;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: yellow;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  li.checked {
+    background-color: #c5e1a5;
+  }
+  
+  li.checked span {
+    text-decoration: line-through;
+  }
+  
+  .delete {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    color: red;
+    cursor: pointer;
+  }
+  
+  #totalTasks {
+    margin-top: 20px;
+  }
+  
